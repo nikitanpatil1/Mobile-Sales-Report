@@ -63,11 +63,48 @@ This Mobile Sales Dashboard is designed for business decision-makers in the mobi
 
             Average_Price = AVERAGE(Sales_Data[Price Per Unit])
 
+ - Step 5 : Dash Board Creation
+      Dashboard was created using different charts, tables, cards, slicers, map, text box to get the insites regarding various terms.
+  
+  - Step 5 : Month To Day (MTD) Calculation and dashboard Creation
+      MTD for total sales was calculated using formula:
+	    
+		 MTD = TOTALMTD([Total_Sales],Custome_Calender[Date].[Date])
+  
+  
+  - Step 5 : Same Period Last Year Calculation and dashboard Creation
+      
+	  To compare last years sales with this year using formula:
+	  
+	     Same Period Last Year = CALCULATE([Total_Sales], SAMEPERIODLASTYEAR(Custome_Calander[Date].[Date]))
+		  
+		  
+
+# Snapshot of Dashboard (Power BI DESKTOP)
 
 ![Image](https://github.com/user-attachments/assets/01bbdfbb-f119-483d-a66c-ff4717381b34)
 
-![Image](https://github.com/user-attachments/assets/41fc63a8-3afc-4bd0-bfc8-ba3f33deaa80)
+ 
+ # Final Dashboard Snapshots
 
-![Image](https://github.com/user-attachments/assets/9cf47024-0ac1-44dd-bd6f-05b98af5051c)
+   ![Image](https://github.com/user-attachments/assets/41fc63a8-3afc-4bd0-bfc8-ba3f33deaa80)
+   
+   - MTD Dashboard Snapshot
+   
+    ![Image](https://github.com/user-attachments/assets/9cf47024-0ac1-44dd-bd6f-05b98af5051c)
+	
+   - Same Period Last Year Dashboard Snapshot
+   
+     ![Image](https://github.com/user-attachments/assets/f417bcce-5ac0-49e3-aa6c-0400c317f370)
 
-![Image](https://github.com/user-attachments/assets/f417bcce-5ac0-49e3-aa6c-0400c317f370)
+
+
+
+
+
+
+
+
+
+
+
