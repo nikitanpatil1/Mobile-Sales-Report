@@ -98,7 +98,7 @@ This Mobile Sales Dashboard is designed for business decision-makers in the mobi
 	
  - Same Period Last Year Dashboard Snapshot
    
-   ![Image](https://github.com/user-attachments/assets/f417bcce-5ac0-49e3-aa6c-0400c317f370)
+   ![Image](https://github.com/user-attachments/assets/c806732c-e015-4121-aef6-e2b1d74167d6)
 
 
 
