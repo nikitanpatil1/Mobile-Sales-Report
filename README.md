@@ -13,7 +13,7 @@ This Mobile Sales Dashboard is designed for business decision-makers in the mobi
 - Step 2 : Open power query editor & using the ETL tools Data cleaning and processing was done.
 - Step 4 : It was observed that some columns needed modifications and hence it was done.
      
-  (i) Day, Month, and Year columns.
+  i) Day, Month, and Year columns.
   
     these terms were allocated different column each but the analysis demanded them to be combined and hence it was done using merge column option.
 
@@ -21,13 +21,13 @@ This Mobile Sales Dashboard is designed for business decision-makers in the mobi
   
      ![Image](https://github.com/user-attachments/assets/1fa4d3d0-20e2-4b60-a3cd-9bd7eab6a0a0)
 
-  (ii) Day Name column.
+  ii) Day Name column.
 
     this column had some mix kind of data, which could be done using Replace Values or even Date Option but it will just show the day name for only those dates which are present in the data. but we want each and every day from those 4 years to do the analysis. So to deal with it Custome calender table was made.
   
     ![Image](https://github.com/user-attachments/assets/68013721-8309-4256-96f9-d859ead37b3e)
 	 
-   (iii) Custome Calender Table.
+   iii) Custome Calender Table.
   
   It was made so that we can get the Day Name for each and every date present in that particular year.
 		 following formula was used to get that info and later it was converted into the column:
@@ -67,7 +67,8 @@ This Mobile Sales Dashboard is designed for business decision-makers in the mobi
       Dashboard was created using different charts, tables, cards, slicers, map, text box to get the insites regarding various terms.
   
   - Step 5 : Month To Day (MTD) Calculation and dashboard Creation
-      MTD for total sales was calculated using formula:
+    
+       MTD for total sales was calculated using formula:
 	    
 		 MTD = TOTALMTD([Total_Sales],Custome_Calender[Date].[Date])
   
@@ -87,17 +88,98 @@ This Mobile Sales Dashboard is designed for business decision-makers in the mobi
  
  # Final Dashboard Snapshots
 
+ - Dashboard Snapshot
+   
    ![Image](https://github.com/user-attachments/assets/41fc63a8-3afc-4bd0-bfc8-ba3f33deaa80)
    
-   - MTD Dashboard Snapshot
+ - MTD Dashboard Snapshot
    
-    ![Image](https://github.com/user-attachments/assets/9cf47024-0ac1-44dd-bd6f-05b98af5051c)
+   ![Image](https://github.com/user-attachments/assets/9cf47024-0ac1-44dd-bd6f-05b98af5051c)
 	
-   - Same Period Last Year Dashboard Snapshot
+ - Same Period Last Year Dashboard Snapshot
    
-     ![Image](https://github.com/user-attachments/assets/f417bcce-5ac0-49e3-aa6c-0400c317f370)
+   ![Image](https://github.com/user-attachments/assets/f417bcce-5ac0-49e3-aa6c-0400c317f370)
 
 
+
+# Insights
+
+This Mobile Sales Dashboard tracks and analyzes mobile phone sales performance for a retailer or brand. 
+
+Here's a quick summary of its key insights:
+
+### [1] Sales Overview
+
+    - Total Sales: 769M
+
+    - Total Quantity Sold: 19K
+
+    - Total Transactions: 4K
+
+    - Average Price: 40.11K
+           
+### [2] Sales Trends & Key Insights
+
+a) Best & Worst Months for Sales
+	   
+	  - Peak Months: Based on the line graph, sales peaked in April & July.
+    
+	  - Lowest Sales Months: February saw the lowest sales.
+	
+ b) Best-Performing Cities
+	
+	  - Cities like Mumbai, Delhi, Bangalore, and Chennai had high sales.
+
+	  - Smaller cities like Ludhiana and Gorakhpur had lower sales contributions.
+	   
+ c) Brand Performance
+	
+	  - Apple leads in total sales, followed by OnePlus, Samsung, and Vivo.
+    
+	  - But Samsung has higher transactions, meaning it sells more units at a lower price.
+	   
+ d) Payment Method Insights
+	
+	  - UPI & Debit Cards dominate sales (both around 24-26%).
+    
+	  - Cash & Credit Cards are used less frequently.
+	
+ e) Sales by Day of the Week
+	
+	  - Monday, Friday, and Tuesday see the highest sales (~26.4M).
+    
+	  - Thursday has the lowest sales (~23.2M).
+	   
+     
+  
+  ### [3] Comparative Analysis 
+  
+   a) Month to Day
+      
+   b) Same Period Last Year vs. Now
+
+
+ ### [4] Recommendations & Strategy
+ 
+- Boost Sales During Low Months 
+	
+	   Introduce promotions during February & December.
+ 
+ - Leverage Digital Payments 
+	  
+	   Offer cashback or discounts on UPI/Debit transactions.
+ 
+ - City-Based Targeting
+	
+	   Focus marketing in high-performing cities & expand efforts in lower-tier cities.
+	  
+- Enhance Mid-Tier Product Ratings
+	
+	   Improve features based on customer feedback
+	  
+- Day-Based Promotions
+	
+	  Midweek sales (Tuesday-Thursday) can help balance out demand.
 
 
 
