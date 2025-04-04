@@ -1,29 +1,29 @@
 # Mobile Sales Dashboard Report
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+### Dashboard file Link : 
 
 ## Problem Statement
 
-This Mobile Sales Dashboard is designed for business decision-makers in the mobile phone industry—likely for a retailer, distributor, or brand analyzing sales performance. It helps to track sales by city, brand, and model.
+This **Mobile Sales Dashboard** is designed for business decision-makers in the mobile phone industry—likely for a retailer, distributor, or brand analyzing sales performance. It helps in *Sales Performance Tracking*, gives *Regional Insights*, performs *Time Based Analysis*, helps in analyzing *Customer Behavior*.
 
 
 ### Steps followed 
 
 - Step 1 : Load data into Power BI Desktop, dataset is a excel file.
 - Step 2 : Open power query editor & using the ETL tools Data cleaning and processing was done.
-- Step 4 : It was observed that some columns needed modifications and hence it was done.
+- Step 3 : It was observed that some columns needed modifications. Following modifications were done:
      
-  i) Day, Month, and Year columns.
-  
-    these terms were allocated different column each but the analysis demanded them to be combined and hence it was done using merge column option.
+  - Day, Month, and Year columns.
+    
+    These terms were allocated different column each but the analysis demanded them to be combined and hence it was done using *merge column* option.
 
      ![Image](https://github.com/user-attachments/assets/d8aaa5f3-2eab-4c89-9b9d-c0ac5b241552)
   
      ![Image](https://github.com/user-attachments/assets/1fa4d3d0-20e2-4b60-a3cd-9bd7eab6a0a0)
 
-  ii) Day Name column.
+   - Day Name column.
 
-    this column had some mix kind of data, which could be done using Replace Values or even Date Option but it will just show the day name for only those dates which are present in the data. but we want each and every day from those 4 years to do the analysis. So to deal with it Custome calender table was made.
+     This column had some mix kind of data, which could be done using *Replace Values* or even *Date* option but it will just show the day name for only those dates which are present in the data. but we want each and every day from those 4 years to do the analysis. So to deal with it Custome calender table was made.
   
     ![Image](https://github.com/user-attachments/assets/68013721-8309-4256-96f9-d859ead37b3e)
 	 
